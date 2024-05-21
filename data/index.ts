@@ -1,14 +1,15 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize collaboration with PM, Design & Engineering teams, fostering open communication throughout the SDLC",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm very comfortable working collaboratively across multiple time zones",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Blockchain Token Ecosystem and gaming platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Recruiting for a great Frontend SWE Role?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -69,149 +70,146 @@ export const gridItems = [
   },
 ];
 
+const appIcons = {
+  next: {
+    img: "/next.svg",
+    title: "NextJS",
+  },
+  tail: {
+    img: "/tail.svg",
+    title: "TailwindCSS",
+  },
+  ts: {
+    img: "/ts.svg",
+    title: "TypeScript",
+  },
+  liveblocks: {
+    img: "/liveblocks.svg",
+    title: "Liveblocks.io",
+  },
+  shadcn: {
+    img: "/shadcn.jpg",
+    title: "shadcn.ui",
+  },
+  plaid: {
+    img: "/plaid.png",
+    title: "Plaid",
+  },
+  dwolla: {
+    img: "/dwolla.png",
+    title: "Dwolla",
+  },
+  appwrite: {
+    img: "/appwrite.png",
+    title: "Appwrite.io",
+  },
+  sentry: {
+    img: "/sentry.png",
+    title: "Sentry",
+  },
+  mongo: {
+    img: "/mongodb.png",
+    title: "MongoDB",
+  },
+  clerk: {
+    img: "/clerk.png",
+    title: "Clerk",
+  },
+  railway: {
+    img: "/railway.svg",
+    title: "Railway",
+  },
+  prisma: {
+    img: "/prisma.png",
+    title: "Prisma",
+  },
+  socket: {
+    img: "/socket.svg",
+    title: "socket.io",
+  },
+};
+
+const { next, tail, ts, liveblocks, shadcn, plaid, dwolla, appwrite, sentry, mongo, clerk, railway, prisma, socket } = appIcons;
+
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Figmatic - (Figma-like Clone)",
+    des: "A web-based design tool that enables real-time vector graphic editing, prototyping, and collaboration.",
+    img: "/p1.jpg",
+    iconLists: [next, tail, ts, liveblocks, shadcn],
+    livelink: "https://figmatic-sand.vercel.app/",
+    repolink: "https://github.com/ajohnson1031/figmatic",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Horizon Bank",
+    des: "A fully-functional banking app that connects to multiple accts, displays txns IRT and allows transfers between users.",
+    img: "/p2.jpg",
+    iconLists: [next, tail, ts, plaid, dwolla, appwrite, sentry, shadcn],
+    livelink: "https://banking-3l61.vercel.app/sign-in",
+    repolink: "https://github.com/ajohnson1031/banking",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Threads Clone",
+    des: "A Threads-like application that allows the creation of communities where like-minded people can share ideas.",
+    img: "/p3.jpg",
+    iconLists: [next, tail, ts, clerk, mongo, shadcn],
+    livelink: "https://threads-clone-xi-inky.vercel.app/",
+    repolink: "https://github.com/ajohnson1031/threads-clone",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    title: "Discord Clone",
+    des: "A Discord-like application that allows users to chat via text, voice and video across personalized servers and channels.",
+    img: "/p4.png",
+    iconLists: [next, tail, ts, socket, prisma, railway, shadcn],
+    livelink: "https://discord-clone-production-7965.up.railway.app",
+    repolink: "https://github.com/ajohnson1031/discord-clone",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer",
+    desc: "Member of the Innovation & Transformation team responsible for upgrading legacy systems using new technologies such as ReactJS and Python.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Interactive Developer",
+    desc: "Creative team member responsible for the implementation of interactive ad campaigns from ideation and development to metrics-based recap and all points between.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Creative Manager",
+    desc: "Led teams across LA, Canada & Singapore in the creation of interactive ad campaigns. Managed clients across verticals face-to-face from kickoff to campaign launch.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/ajohnson1031",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/aaron-johnson-webdev",
   },
 ];
