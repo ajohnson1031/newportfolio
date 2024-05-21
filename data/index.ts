@@ -14,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -44,8 +44,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -55,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -72,59 +72,59 @@ export const gridItems = [
 
 const appIcons = {
   next: {
-    img: "/next.svg",
+    img: "./next.svg",
     title: "NextJS",
   },
   tail: {
-    img: "/tail.svg",
+    img: "./tail.svg",
     title: "TailwindCSS",
   },
   ts: {
-    img: "/ts.svg",
+    img: "./ts.svg",
     title: "TypeScript",
   },
   liveblocks: {
-    img: "/liveblocks.svg",
+    img: "./liveblocks.svg",
     title: "Liveblocks.io",
   },
   shadcn: {
-    img: "/shadcn.jpg",
+    img: "./shadcn.jpg",
     title: "shadcn.ui",
   },
   plaid: {
-    img: "/plaid.png",
+    img: "./plaid.png",
     title: "Plaid",
   },
   dwolla: {
-    img: "/dwolla.png",
+    img: "./dwolla.png",
     title: "Dwolla",
   },
   appwrite: {
-    img: "/appwrite.png",
+    img: "./appwrite.png",
     title: "Appwrite.io",
   },
   sentry: {
-    img: "/sentry.png",
+    img: "./sentry.png",
     title: "Sentry",
   },
   mongo: {
-    img: "/mongodb.png",
+    img: "./mongodb.png",
     title: "MongoDB",
   },
   clerk: {
-    img: "/clerk.png",
+    img: "./clerk.png",
     title: "Clerk",
   },
   railway: {
-    img: "/railway.svg",
+    img: "./railway.svg",
     title: "Railway",
   },
   prisma: {
-    img: "/prisma.png",
+    img: "./prisma.png",
     title: "Prisma",
   },
   socket: {
-    img: "/socket.svg",
+    img: "./socket.svg",
     title: "socket.io",
   },
 };
@@ -136,7 +136,7 @@ export const projects = [
     id: 1,
     title: "Figmatic - (Figma-like Clone)",
     des: "A web-based design tool that enables real-time vector graphic editing, prototyping, and collaboration.",
-    img: "/p1.jpg",
+    img: "./p1.jpg",
     iconLists: [next, tail, ts, liveblocks, shadcn],
     livelink: "https://figmatic-sand.vercel.app/",
     repolink: "https://github.com/ajohnson1031/figmatic",
@@ -145,7 +145,7 @@ export const projects = [
     id: 2,
     title: "Horizon Bank",
     des: "A fully-functional banking app that connects to multiple accts, displays txns IRT and allows transfers between users.",
-    img: "/p2.jpg",
+    img: "./p2.jpg",
     iconLists: [next, tail, ts, plaid, dwolla, appwrite, sentry, shadcn],
     livelink: "https://banking-3l61.vercel.app/sign-in",
     repolink: "https://github.com/ajohnson1031/banking",
@@ -154,7 +154,7 @@ export const projects = [
     id: 3,
     title: "Threads Clone",
     des: "A Threads-like application that allows the creation of communities where like-minded people can share ideas.",
-    img: "/p3.jpg",
+    img: "./p3.jpg",
     iconLists: [next, tail, ts, clerk, mongo, shadcn],
     livelink: "https://threads-clone-xi-inky.vercel.app/",
     repolink: "https://github.com/ajohnson1031/threads-clone",
@@ -163,7 +163,7 @@ export const projects = [
     id: 4,
     title: "Discord Clone",
     des: "A Discord-like application that allows users to chat via text, voice and video across personalized servers and channels.",
-    img: "/p4.png",
+    img: "./p4.png",
     iconLists: [next, tail, ts, socket, prisma, railway, shadcn],
     livelink: "https://discord-clone-production-7965.up.railway.app",
     repolink: "https://github.com/ajohnson1031/discord-clone",
@@ -176,40 +176,40 @@ export const workExperience = [
     title: "Software Engineer",
     desc: "Member of the Innovation & Transformation team responsible for upgrading legacy systems using new technologies such as ReactJS and Python.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.png",
+    thumbnail: "./exp1.png",
   },
   {
     id: 2,
     title: "Interactive Developer",
     desc: "Creative team member responsible for the implementation of interactive ad campaigns from ideation and development to metrics-based recap and all points between.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.png",
+    thumbnail: "./exp2.png",
   },
   {
     id: 3,
     title: "Creative Manager",
     desc: "Led teams across LA, Canada & Singapore in the creation of interactive ad campaigns. Managed clients across verticals face-to-face from kickoff to campaign launch.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.png",
+    thumbnail: "./exp3.png",
   },
   // {
   //   id: 4,
   //   title: "Lead Frontend Developer",
   //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
   //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
+  //   thumbnail: "./exp4.svg",
   // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/ajohnson1031",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://linkedin.com/in/aaron-johnson-webdev",
   },
 ];

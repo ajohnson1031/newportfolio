@@ -15,7 +15,7 @@ const RecentProjects = () => {
             <PinContainer title={livelink} href={livelink}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h[40vh] h-[30vh] mb-10 rounded-2xl">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <img src="./bg.png" alt="bg-img" />
                 </div>
                 <a href={livelink} target="_blank" rel="noopener noreferrer" className="w-full h-full z-10 absolute bottom-0">
                   <img src={img} alt={title} />
