@@ -133,6 +133,15 @@ const { next, tail, ts, liveblocks, shadcn, plaid, dwolla, appwrite, sentry, mon
 
 export const projects = [
   {
+    id: 0,
+    title: "KingFish™",
+    des: "A Solana-based memecoin project.",
+    img: "./p0.jpg",
+    iconLists: [next, tail, ts],
+    livelink: "https://kingfish.app/",
+    repolink: "https://github.com/ajohnson1031/kingfish-starter-site",
+  },
+  {
     id: 1,
     title: "Figmatic - (Figma-like Clone)",
     des: "A web-based design tool that enables real-time vector graphic editing, prototyping, and collaboration.",
