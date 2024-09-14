@@ -1,12 +1,18 @@
+"use client";
 import { gridItems } from "@/data";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import dynamic from "next/dynamic";
+
+const BentoGrid = dynamic(() => import("./ui/BentoGrid").then((m) => m.BentoGrid), { ssr: false });
+const GridItem = dynamic(() => import("./ui/BentoGrid").then((m) => m.BentoGridItem), {
+  ssr: false,
+});
 
 const Grid = () => {
   return (
     <section id="about">
       <BentoGrid className="w-full py-20">
         {gridItems.map((item, i) => (
-          <BentoGridItem key={i} {...item} />
+          <GridItem key={i} {...item} />
         ))}
       </BentoGrid>
     </section>

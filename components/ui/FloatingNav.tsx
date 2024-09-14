@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaHome } from "react-icons/fa";
 
-export const FloatingNav = ({
+const FloatingNav = ({
   navItems,
   className,
 }: {
@@ -70,3 +70,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+export default FloatingNav;

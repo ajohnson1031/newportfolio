@@ -2,7 +2,7 @@ export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Approach", link: "#approach" },
+  { name: "XP", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -135,7 +135,7 @@ export const projects = [
   {
     id: 0,
     title: "KingFish™",
-    des: "A Solana-based memecoin project.",
+    des: "An aspirational memecoin project that uses Solana SDKs to make real-time, Solscan-tracked transactions.",
     img: "./p0.jpg",
     iconLists: [next, tail, ts],
     livelink: "https://kingfish.app/",

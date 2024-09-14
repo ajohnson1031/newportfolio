@@ -1,3 +1,4 @@
+"use client";
 import { socialMedia } from "@/data";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
@@ -16,7 +17,7 @@ const Footer = () => {
 
         <p className="text-white-200 my-5 md:my-10 text-center">Let&apos;s have a conversation.</p>
 
-        <a href="mailto:aaron.johnson1031@gmail.com">
+        <a href="mailto:aaron.johnson1031@gmail.com&subject=Let's have a conversation." target="_blank" rel="noopener noreferrer">
           <MagicButton title="Contact Me" icon={<FaLocationArrow />} position="right" />
         </a>
       </div>
