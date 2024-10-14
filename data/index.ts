@@ -152,15 +152,6 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Horizon Bank",
-    des: "A fully-functional banking app that connects to multiple accts, displays txns IRT and allows transfers between users.",
-    img: "./p2.jpg",
-    iconLists: [next, tail, ts, plaid, dwolla, appwrite, sentry, shadcn],
-    livelink: "https://banking-3l61.vercel.app/sign-in",
-    repolink: "https://github.com/ajohnson1031/banking",
-  },
-  {
-    id: 3,
     title: "Threads Clone",
     des: "A Threads-like application that allows the creation of communities where like-minded people can share ideas.",
     img: "./p3.jpg",
@@ -169,7 +160,7 @@ export const projects = [
     repolink: "https://github.com/ajohnson1031/threads-clone",
   },
   {
-    id: 4,
+    id: 3,
     title: "Discord Clone",
     des: "A Discord-like application that allows users to chat via text, voice and video across personalized servers and channels.",
     img: "./p4.png",
