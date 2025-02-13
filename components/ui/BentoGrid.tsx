@@ -149,7 +149,7 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <a href="./cv/ajohnson_software_engineer_2024.pdf" download>
+              <a href="./cv/ajohnson_software_engineer_2025.pdf" download>
                 <MagicButton title={"Download CV"} icon={<FaCloudDownloadAlt />} position="left" handleClick={() => {}} otherClasses="!bg-[#161A31] text-xs sm:text-sm" />
               </a>
             </div>

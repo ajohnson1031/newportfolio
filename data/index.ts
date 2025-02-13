@@ -71,6 +71,18 @@ export const gridItems = [
 ];
 
 const appIcons = {
+  html: {
+    img: "./html.png",
+    title: "HTML",
+  },
+  css: {
+    img: "./css.png",
+    title: "CSS",
+  },
+  react: {
+    img: "./react.png",
+    title: "React",
+  },
   next: {
     img: "./next.svg",
     title: "NextJS",
@@ -78,6 +90,10 @@ const appIcons = {
   tail: {
     img: "./tail.svg",
     title: "TailwindCSS",
+  },
+  js: {
+    img: "./javascript.png",
+    title: "JavaScript",
   },
   ts: {
     img: "./ts.svg",
@@ -127,9 +143,21 @@ const appIcons = {
     img: "./socket.svg",
     title: "socket.io",
   },
+  vite: {
+    img: "./vite.svg",
+    title: "Vite",
+  },
+  chatgpt: {
+    img: "./chatgpt.png",
+    title: "ChatGPT",
+  },
+  netlify: {
+    img: "./netlify.png",
+    title: "Netlify",
+  },
 };
 
-const { next, tail, ts, liveblocks, shadcn, plaid, dwolla, appwrite, sentry, mongo, clerk, railway, prisma, socket } = appIcons;
+const { html, react, next, tail, css, js, ts, liveblocks, shadcn, plaid, dwolla, appwrite, sentry, mongo, clerk, railway, prisma, socket, vite, chatgpt, netlify } = appIcons;
 
 export const projects = [
   {
@@ -153,7 +181,7 @@ export const projects = [
   {
     id: 2,
     title: "Threads Clone",
-    des: "A Threads-like application that allows the creation of communities where like-minded people can share ideas.",
+    des: "A Threads-like app that allows the creation of communities where like-minded people can share ideas.",
     img: "./p3.jpg",
     iconLists: [next, tail, ts, clerk, mongo, shadcn],
     livelink: "https://threads-clone-xi-inky.vercel.app/",
@@ -162,11 +190,74 @@ export const projects = [
   {
     id: 3,
     title: "Discord Clone",
-    des: "A Discord-like application that allows users to chat via text, voice and video across personalized servers and channels.",
+    des: "A Discord-like app that allows users to chat via text, voice & video across personalized servers and channels.",
     img: "./p4.png",
     iconLists: [next, tail, ts, socket, prisma, railway, shadcn],
     livelink: "https://discord-clone-production-7965.up.railway.app",
     repolink: "https://github.com/ajohnson1031/discord-clone",
+  },
+  {
+    id: 4,
+    title: "AI Summarizer",
+    des: "Grab a URL and paste it into this AI Summarizer to get to the nitty-gritty of your desired article or page.",
+    img: "img/portfolio/14.jpg",
+    iconLists: [vite, chatgpt, tail, netlify],
+    livelink: "https://resonant-sunburst-c9866d.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/ai-summarizer",
+  },
+  {
+    id: 5,
+    title: "Chrome Browser Game Replica",
+    des: "A fun little game that replicates the Chrome browser's built-in offline dinosaur game.",
+    img: "img/portfolio/12.jpg",
+    iconLists: [html, js, css],
+    livelink: "https://inquisitive-paletas-9fecc7.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/chrome-browser-game",
+  },
+  {
+    id: 6,
+    title: "Conway's Game of Life",
+    des: "A visualization of Conway's Game of Life, where users can create their own patterns or generate a randomized start pattern.",
+    img: "img/portfolio/01.jpg",
+    iconLists: [react],
+    livelink: "https://aj-conway-game-of-life-2020.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/aj-conway-game-of-life",
+  },
+  {
+    id: 7,
+    title: "HexColor Tint Generator",
+    des: "An application that generates tint variations for colors based on input hex codes or CSS named colors.",
+    img: "img/portfolio/04.jpg",
+    iconLists: [react],
+    livelink: "https://hexcolortintgeneratorapp.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/hexcolor-tint-generator",
+  },
+  {
+    id: 8,
+    title: "One Player Chess Game",
+    des: "A one-player chess game with randomized computer movements.",
+    img: "img/portfolio/06.jpg",
+    iconLists: [react, ts],
+    livelink: "https://chessgame-oneplayer.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/one-player-chess-game",
+  },
+  {
+    id: 9,
+    title: "Spotify® Clone",
+    des: "A Spotify® clone.",
+    img: "img/portfolio/07.jpg",
+    iconLists: [react],
+    livelink: "https://friendly-heisenberg-3cbe1c.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/spotify-clone-fe",
+  },
+  {
+    id: 10,
+    title: "Socket.io Chat App",
+    des: "A chat app built on React and socket.io.",
+    img: "img/portfolio/08.jpg",
+    iconLists: [react, socket],
+    livelink: "https://inspiring-beaver-c70f60.netlify.app/",
+    repolink: "https://github.com/ajohnson1031/whatsapp-clone-fe",
   },
 ];
 
