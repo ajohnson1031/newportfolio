@@ -254,8 +254,15 @@ export const projects = [
 
 export const workExperience = [
   {
+    id: 0,
+    title: "Software Engineer (Contract)",
+    desc: "Assisted with the launch of AmEx's BCA (Business Checking Acct.) Zelle P2P payments feature, enabling small business customers to send and receive payments seamlessly.",
+    className: "md:col-span-2",
+    thumbnail: "./exp4.png",
+  },
+  {
     id: 1,
-    title: "Software Engineer",
+    title: "Software Engineer III",
     desc: "Member of the Innovation & Transformation team responsible for upgrading legacy systems using new technologies such as ReactJS and Python.",
     className: "md:col-span-2",
     thumbnail: "./exp1.png",
@@ -274,13 +281,6 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "./exp3.png",
   },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "./exp4.svg",
-  // },
 ];
 
 export const socialMedia = [
