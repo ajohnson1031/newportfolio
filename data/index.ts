@@ -162,6 +162,15 @@ const { html, react, next, tail, css, js, ts, liveblocks, shadcn, plaid, dwolla,
 export const projects = [
   {
     id: 0,
+    title: "Youtube Caption Search",
+    des: "Search YouTube captions, jump to matching timestamps, save moments, and export timestamped notes.",
+    img: "./p4.png",
+    iconLists: [js, html, css],
+    livelink: "https://chromewebstore.google.com/detail/youtube-caption-search/fgdfkijpkbhepejbphggfojbjgcpebdk",
+    repolink: "https://github.com/ajohnson1031/youtube-caption-search",
+  },
+  {
+    id: 1,
     title: "KingFish™",
     des: "An aspirational memecoin project that uses Solana SDKs to make real-time, Solscan-tracked transactions.",
     img: "./p0.jpg",
@@ -170,7 +179,7 @@ export const projects = [
     repolink: "https://github.com/ajohnson1031/kingfish-starter-site",
   },
   {
-    id: 1,
+    id: 2,
     title: "Figmatic - (Figma-like Clone)",
     des: "A web-based design tool that enables real-time vector graphic editing, prototyping, and collaboration.",
     img: "./p1.jpg",
@@ -178,15 +187,6 @@ export const projects = [
     livelink: "https://figmatic-sand.vercel.app/",
     repolink: "https://github.com/ajohnson1031/figmatic",
   },
-  // {
-  //   id: 2,
-  //   title: "Discord Clone",
-  //   des: "A Discord-like app that allows users to chat via text, voice & video across personalized servers and channels.",
-  //   img: "./p4.png",
-  //   iconLists: [next, tail, ts, socket, prisma, railway, shadcn],
-  //   livelink: "https://discord-clone-production-7965.up.railway.app",
-  //   repolink: "https://github.com/ajohnson1031/discord-clone",
-  // },
   {
     id: 3,
     title: "AI Summarizer",
